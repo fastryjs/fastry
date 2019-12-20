@@ -5,10 +5,10 @@
   "files": [],
   "include": [],
   "references": [
+    { "path": "./packages/ioc" },
     { "path": "./packages/core" },
     { "path": "./packages/core-modules" },
     { "path": "./packages/auth" },
-    { "path": "./packages/ioc" },
     { "path": "./packages/graphql" },
     { "path": "./packages/serve" }
   ]
