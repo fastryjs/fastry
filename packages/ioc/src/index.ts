@@ -1,3 +1,3 @@
-export { Component } from "./src/Component";
-export { ComponentPlugin } from "./src/ComponentPlugin";
-export { getInstance } from "./src/registry";
+export { Component } from "./Component";
+export { ComponentPlugin } from "./ComponentPlugin";
+export { getInstance } from "./registry";
