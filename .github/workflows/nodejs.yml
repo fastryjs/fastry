@@ -31,6 +31,8 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - run: yarn install
+        env:
+          CI: true
       - run: yarn compile
         env:
           CI: true
