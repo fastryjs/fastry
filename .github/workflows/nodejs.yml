@@ -30,10 +30,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
-      - name: yarn install, build, and test
-        run: |
-          yarn install
-          yarn compile
-          yarn test
+      - run: yarn install
+      - run: yarn compile
+        env:
+          CI: true
+      - run: yarn test
         env:
           CI: true
