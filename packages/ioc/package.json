@@ -1,7 +1,7 @@
 {
   "name": "@fastry/ioc",
   "version": "1.0.1",
-  "repository": "https://github.com/fastry/fastryjs",
+  "repository": "https://github.com/fastryjs/fastry",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {

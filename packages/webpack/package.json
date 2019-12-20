@@ -1,7 +1,7 @@
 {
   "name": "@fastry/webpack",
   "version": "1.0.1",
-  "repository": "https://github.com/fastry/fastryjs",
+  "repository": "https://github.com/fastryjs/fastry",
   "main": "./index.js",
   "license": "MIT",
   "publishConfig": {

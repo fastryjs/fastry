@@ -1,9 +1,12 @@
 {
   "name": "@fastry/auth",
   "version": "1.0.1",
-  "repository": "https://github.com/fastry/fastryjs",
+  "repository": "https://github.com/fastryjs/fastry",
   "main": "./index.ts",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@fastry/core-modules": "^1.0",
     "@fastry/ioc": "^1.0",

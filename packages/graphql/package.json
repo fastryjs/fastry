@@ -1,7 +1,7 @@
 {
   "name": "@fastry/graphql",
   "version": "1.0.1",
-  "repository": "https://github.com/fastry/fastryjs",
+  "repository": "https://github.com/fastryjs/fastry",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
