@@ -1,0 +1,11 @@
+modules:
+  - graphql
+  - auth
+  - mod2
+  - mod1
+web:
+  url: http://localhost:4000/
+session:
+  secret: somesecret123
+redis:
+  host: localhost

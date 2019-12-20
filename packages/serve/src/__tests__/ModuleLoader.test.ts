@@ -1,0 +1,3 @@
+test("module loading works", () => {
+  //
+});

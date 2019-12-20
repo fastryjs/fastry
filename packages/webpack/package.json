@@ -1,0 +1,20 @@
+{
+  "name": "@fastry/webpack",
+  "version": "1.0.1",
+  "repository": "https://github.com/fastry/fastryjs",
+  "main": "./index.js",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.2",
+    "webpack-assets-manifest": "^3.1.1",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "gitHead": "40961e16c234ebefccf5837b3c2dc87cf512c4ad"
+}

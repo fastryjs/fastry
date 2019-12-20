@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./modules",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "modules/**/*",
+    "modules/**/*.json"
+  ],
+  "exclude": ["**/__tests__", "**/__mocks__"],
+  "references": []
+}

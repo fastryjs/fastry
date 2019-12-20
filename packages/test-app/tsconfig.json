@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "lib": ["es5", "es6", "es7", "es2017", "esnext", "dom"],
+    //    "moduleResolution": "Node",
+    // "strict": true, // `strict` is commented because of this issue: https://github.com/prisma/prisma/issues/3774; all its options except `strictNullChecks` & `strictPropertyInitialization` are explicitly set below.
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "skipLibCheck": true, // `skipLibCheck` is enabled until this is issue is fixed: https://github.com/prisma/nexus-prisma/issues/82
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+
+    "baseUrl": ".",
+    "rootDir": ".",
+    "outDir": "dist",
+
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "declaration": true,
+    "experimentalDecorators": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@fastry/graphql",
+  "version": "1.0.1",
+  "repository": "https://github.com/fastry/fastryjs",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@apollo/react-common": "^3.1.3",
+    "@apollo/react-ssr": "^3.1.3",
+    "@fastry/ioc": "^1.0",
+    "apollo-boost": "^0.4.4",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server-express": "^2.9.13",
+    "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "nexus": "^0.12.0-rc.5",
+    "node-fetch": "^2.6.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4"
+  },
+  "gitHead": "40961e16c234ebefccf5837b3c2dc87cf512c4ad"
+}

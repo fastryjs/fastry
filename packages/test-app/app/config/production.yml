@@ -1,0 +1,4 @@
+web:
+  url: https://dev.someserver.org/
+redis:
+  host: redis
